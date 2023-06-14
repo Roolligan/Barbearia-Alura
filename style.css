@@ -1,39 +1,89 @@
-h1 {
-    padding-left: 20px;
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: #FD2134;
+    text-decoration: underline;
+
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
 }
 
-#banner{
-    width: 100%;
-}
-
-.principal {
-    background: #cccccc;
-    text-align: center;
-    padding: 30px;
-}
-
-#missao {
-    font-size: 20px;
-}
-em strong {
-    color: red;
-}
-.itens {
-    font-style: italic;
-}
-.beneficios {
-    background: #ffffff;
-    padding: 20px;
-}
-h3 {
-    text-align: center;
-}
-ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-radius: 5px 5px 10px 10px;
+
 }
-.imagembeneficio {
-    width: 50%;
+
+.produtos li:hover {
+    border-color: #FD2134;
+}
+.produtos li:active {
+    border-color: #4C7FFF;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+.descricao {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("./imagensprodutosbarbearia/bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
 }
